@@ -372,6 +372,7 @@ contact-link:focus {
   padding-top: 100px;
   justify-content: center;
   margin-right: 516px;
+  margin-left: 300px;
 }
 
 .modal-item {
@@ -392,6 +393,7 @@ contact-link:focus {
   padding-top: 56px;
   padding-bottom: var(--section-pb);
   margin-right: 200px;
+  margin-left: 100px;
 }
 
 .project-name {
