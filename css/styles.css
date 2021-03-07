@@ -62,7 +62,7 @@ img {
 
 /*==========COMPONENTS==========*/
 .container {
-  width: 1630px;
+  width: 1230px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -92,10 +92,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--heading-color);
   margin-right: 93px;
-  margin-left: 215px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
 .active {
   color: var(--accent-color);
 }
@@ -135,6 +135,7 @@ contact-link:focus {
 .navagation-contact {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 .navagation-item:not(:last-child) {
   margin-right: 50px;
@@ -144,7 +145,7 @@ contact-link:focus {
   margin-left: 331px;
   margin-right: 50px;
 }
-.contact-item:nth-child(2) {
+/*.contact-item:nth-child(2) {
   margin-right: 215px;
 }
 /*==========END HEADER==========*/
@@ -163,9 +164,9 @@ contact-link:focus {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  max-width: 696px;
+  margin: auto;
   margin-bottom: 30px;
-  margin-left: 452px;
-  margin-right: 452px;
 }
 
 .button-primary {
@@ -178,17 +179,15 @@ contact-link:focus {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: var(--accent-color);
-  min-width: 200px;
   padding-left: 29px;
   padding-right: 29px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-right: 700px;
-  margin-left: 700px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: auto;
 }
 
 .container .hero {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
   height: 600px;
 }
@@ -220,15 +219,12 @@ contact-link:focus {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
-  flex-basis: cacl(100%/4 -30px);
-  padding-left: 215px;
-  padding-right: 215px;
 }
 
 .about-list-text {
   margin-left: 30px;
   margin-top: 30px;
-  width: 270px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 /*==========END ABOUT==========*/
 
@@ -252,12 +248,11 @@ contact-link:focus {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
-  flex-basis: cacl(100%/3 -30px);
-  padding-left: 215px;
-  padding-right: 215px;
+  margin: auto;
 }
 
 .functional-link {
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -300,11 +295,10 @@ contact-link:focus {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
-  flex-basis: cacl(100%/4 -30px);
-  padding-left: 215px;
-  padding-right: 215px;
 }
+
 .team-card {
+  flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -360,28 +354,19 @@ contact-link:focus {
 
 .portfolio {
   background: var(--white-color);
-  margin-left: 215px;
-  margin-right: 215px;
 }
 
 .modal {
   display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
-  flex-basis: cacl(100%/5 -30px);
-  padding-top: 100px;
+  padding-top: 96px;
   justify-content: center;
-  margin-right: 516px;
-  margin-left: 300px;
 }
 
 .modal-item {
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 .modal-link:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .project-list {
@@ -389,14 +374,12 @@ contact-link:focus {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  flex-basis: cacl(100%/9 -30px);
-  padding-top: 56px;
+  padding-top: 50px;
   padding-bottom: var(--section-pb);
-  margin-right: 200px;
-  margin-left: 100px;
 }
 
 .project-name {
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -414,11 +397,13 @@ contact-link:focus {
 
 /*==========FOOTER==========*/
 .logo-white {
+  display: block;
   font-family: var(--secondary-front);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--white-color);
+  margin-top: 20px;
 }
 
 .foother-link {
@@ -433,7 +418,6 @@ contact-link:focus {
   background-color: var(--dark-background);
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 
 .foother-link-address {
