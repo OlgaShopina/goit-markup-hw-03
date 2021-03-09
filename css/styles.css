@@ -137,6 +137,11 @@ contact-link:focus {
   align-items: center;
   margin-left: auto;
 }
+
+.contact-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .navagation-item:not(:last-child) {
   margin-right: 50px;
 }
