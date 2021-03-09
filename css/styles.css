@@ -164,6 +164,7 @@ contact-link:focus {
   max-width: 696px;
   margin: auto;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .button-primary {
@@ -221,7 +222,7 @@ contact-link:focus {
 .about-list-text {
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc(100% / 4 - 30px);
 }
 /*==========END ABOUT==========*/
 
@@ -248,7 +249,7 @@ contact-link:focus {
 }
 
 .functional-link {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -295,7 +296,7 @@ contact-link:focus {
 }
 
 .team-card {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -357,14 +358,15 @@ contact-link:focus {
 }
 
 .portfolio {
-  background: var(--white-color);
   border-top: 1px solid #ececec;
+  padding-top: 94px;
+  padding-bottom: var(--section-pb);
 }
 
 .modal {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
+  /*padding-top: 94px;*/
   margin-bottom: 50px;
 }
 
@@ -377,11 +379,10 @@ contact-link:focus {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding-bottom: var(--section-pb);
 }
 
 .project-name {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -415,7 +416,8 @@ contact-link:focus {
   font-size: 26px;
   line-height: 1.19;
   color: var(--white-color);
-  margin-top: 20px;
+  margin-bottom: 20px;
+  /*margin-top: 20px;*/
 }
 
 .foother-link {
@@ -441,7 +443,7 @@ contact-link:focus {
 }
 
 .navagation-foother {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .foother-item:not(:last-child) {
